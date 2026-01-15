@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.navbar {
+  width: auto;
+  padding: 12px 24px;
+  background-color: rgb(1, 17, 31);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: aliceblue;
+  padding: 12px 24px;
+  font-size: 32px;
+}
+
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn {
+  background-color: rgb(4, 32, 56);
+  color: aliceblue;
+  padding: 12px 24px;
+  border-radius: 24px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(5, 45, 80);
+  text-decoration: underline;
+}
+
+.hero {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/botw.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-contenido {
+}
+
+.contenido {
+}
