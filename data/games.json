@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "image": "img/games/botw.jpg",
+    "synopsis": "Olvida todo lo que sabes sobre los juegos de The Legend of Zelda. Entra en un mundo de descubrimientos, exploración y aventura en The Legend of Zelda: Breath of the Wild.",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "platforms": ["Nintendo Switch", "Wii U"],
+    "genre": ["Aventura", "Acción", "Mundo Abierto"],
+    "release_date": "2017-03-03",
+    "ratings": { "metacritic": 97, "ign": 10, "gamespot": 10 }
+  },
+  {
+    "id": 2,
+    "title": "Elden Ring",
+    "image": "img/games/eldenring.jpg",
+    "synopsis": "Levántate, Tiznado. Un vasto mundo donde los campos abiertos y las inmensas mazmorras se conectan de forma fluida. Crea tu personaje y define tu estilo de juego.",
+    "developer": "FromSoftware",
+    "publisher": "Bandai Namco",
+    "platforms": ["PS5", "PS4", "Xbox Series X/S", "PC"],
+    "genre": ["RPG", "Souls-like", "Fantasía Oscura"],
+    "release_date": "2022-02-25",
+    "ratings": { "metacritic": 96, "ign": 10, "gamespot": 10 }
+  },
+  {
+    "id": 3,
+    "title": "God of War Ragnarök",
+    "image": "img/games/gow_ragnarok.jpg",
+    "synopsis": "El Fimbulvetr está en marcha. Kratos y Atreus deben viajar a cada uno de los nueve reinos en busca de respuestas mientras las fuerzas asgardianas se preparan para la batalla profetizada.",
+    "developer": "Santa Monica Studio",
+    "publisher": "Sony Interactive Entertainment",
+    "platforms": ["PS5", "PS4", "PC"],
+    "genre": ["Acción", "Aventura", "Hack and Slash"],
+    "release_date": "2022-11-09",
+    "ratings": { "metacritic": 94, "ign": 10, "gamespot": 9 }
+  },
+  {
+    "id": 4,
+    "title": "Red Dead Redemption 2",
+    "image": "img/games/rdr2.jpg",
+    "synopsis": "Estados Unidos, 1899. Arthur Morgan y la banda de Van der Linde son forajidos en busca y captura. Agentes federales y los mejores cazarrecompensas de la nación les pisan los talones.",
+    "developer": "Rockstar Games",
+    "publisher": "Rockstar Games",
+    "platforms": ["PS4", "Xbox One", "PC"],
+    "genre": ["Acción", "Aventura", "Western"],
+    "release_date": "2018-10-26",
+    "ratings": { "metacritic": 97, "ign": 10, "gamespot": 9 }
+  },
+  {
+    "id": 5,
+    "title": "Hollow Knight",
+    "image": "img/games/hollow_knight.jpg",
+    "synopsis": "¡Forja tu propio camino en Hallownest! Una aventura de acción clásica en 2D a través de un vasto mundo interconectado. Explora cavernas tortuosas, ciudades antiguas y páramos mortales.",
+    "developer": "Team Cherry",
+    "publisher": "Team Cherry",
+    "platforms": ["PC", "Switch", "PS4", "Xbox One"],
+    "genre": ["Metroidvania", "Indie", "Plataformas"],
+    "release_date": "2017-02-24",
+    "ratings": { "metacritic": 90, "ign": 9.4, "gamespot": 9 }
+  },
+  {
+    "id": 6,
+    "title": "Super Mario Odyssey",
+    "image": "img/games/mario_odyssey.jpg",
+    "synopsis": "Acompaña a Mario en una aventura en 3D enorme y trotamundos, y usa sus increíbles nuevas habilidades para recoger lunas, encender la nave Odyssey y rescatar a la princesa Peach.",
+    "developer": "Nintendo EPD",
+    "publisher": "Nintendo",
+    "platforms": ["Nintendo Switch"],
+    "genre": ["Plataformas", "Aventura", "Familiar"],
+    "release_date": "2017-10-27",
+    "ratings": { "metacritic": 97, "ign": 10, "gamespot": 10 }
+  },
+  {
+    "id": 7,
+    "title": "The Witcher 3: Wild Hunt",
+    "image": "img/games/witcher3.jpg",
+    "synopsis": "Eres Geralt de Rivia, cazador de monstruos. Delante de ti se extiende un continente infestado de monstruos y devastado por la guerra que podrás explorar a tu antojo.",
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "platforms": ["PS5", "Xbox Series X", "PC", "Switch"],
+    "genre": ["RPG", "Fantasía", "Mundo Abierto"],
+    "release_date": "2015-05-19",
+    "ratings": { "metacritic": 93, "ign": 9.3, "gamespot": 10 }
+  },
+  {
+    "id": 8,
+    "title": "Cyberpunk 2077",
+    "image": "img/games/cyberpunk.jpg",
+    "synopsis": "Cyberpunk 2077 es una historia de acción y aventura de mundo abierto ambientada en Night City, una megalópolis obsesionada con el poder, el glamur y la modificación corporal.",
+    "developer": "CD Projekt Red",
+    "publisher": "CD Projekt",
+    "platforms": ["PS5", "Xbox Series X", "PC"],
+    "genre": ["RPG", "FPS", "Ciencia Ficción"],
+    "release_date": "2020-12-10",
+    "ratings": { "metacritic": 86, "ign": 9, "gamespot": 7 }
+  },
+  {
+    "id": 9,
+    "title": "Resident Evil 4 Remake",
+    "image": "img/games/re4.jpg",
+    "synopsis": "La supervivencia es solo el principio. Seis años después de la catástrofe biológica en Raccoon City, el agente Leon S. Kennedy es enviado a rescatar a la hija del presidente.",
+    "developer": "Capcom",
+    "publisher": "Capcom",
+    "platforms": ["PS5", "PS4", "Xbox Series X", "PC"],
+    "genre": ["Terror", "Acción", "Survival Horror"],
+    "release_date": "2023-03-24",
+    "ratings": { "metacritic": 93, "ign": 10, "gamespot": 10 }
+  },
+  {
+    "id": 10,
+    "title": "Final Fantasy VII Rebirth",
+    "image": "img/games/ff7_rebirth.jpg",
+    "synopsis": "El viaje hacia lo desconocido continúa. Tras escapar de la distópica ciudad de Midgar, Cloud y sus amigos se embarcan en un viaje a través del planeta. Nuevas aventuras aguardan en un mundo vibrante.",
+    "developer": "Square Enix",
+    "publisher": "Square Enix",
+    "platforms": ["PS5"],
+    "genre": ["JRPG", "Acción", "Fantasía"],
+    "release_date": "2024-02-29",
+    "ratings": { "metacritic": 92, "ign": 9, "gamespot": 8 }
+  }
+]

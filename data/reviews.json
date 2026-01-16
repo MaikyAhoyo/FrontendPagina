@@ -1,0 +1,182 @@
+[
+  {
+    "id": 101,
+    "game_id": 1,
+    "author": "CarlosGamer99",
+    "date": "2025-12-10",
+    "rating": 5,
+    "comment": "Simplemente el mejor juego de la historia. La libertad que sientes al escalar cualquier montaña no tiene precio.",
+    "avatar": "img/avatars/user1.png"
+  },
+  {
+    "id": 102,
+    "game_id": 1,
+    "author": "ZeldaFan_Mx",
+    "date": "2026-01-05",
+    "rating": 4,
+    "comment": "Increíble, aunque extraño las mazmorras clásicas. Pero la física del juego es impresionante.",
+    "avatar": "img/avatars/user2.png"
+  },
+  {
+    "id": 103,
+    "game_id": 2,
+    "author": "DarkSoulUser",
+    "date": "2026-01-14",
+    "rating": 5,
+    "comment": "Difícil, frustrante y hermoso. Malenia es la jefa más difícil que he enfrentado.",
+    "avatar": "img/avatars/user3.png"
+  },
+  {
+    "id": 104,
+    "game_id": 2,
+    "author": "CasualPlayer",
+    "date": "2026-02-01",
+    "rating": 3,
+    "comment": "Demasiado difícil para mí, no pude pasar del primer jefe. El mundo es bonito eso sí.",
+    "avatar": "img/avatars/user4.png"
+  },
+  {
+    "id": 105,
+    "game_id": 2,
+    "author": "LoreMaster",
+    "date": "2026-02-10",
+    "rating": 5,
+    "comment": "La historia escondida en los objetos es fascinante. George R.R. Martin se lució.",
+    "avatar": "img/avatars/user1.png"
+  },
+  {
+    "id": 106,
+    "game_id": 3,
+    "author": "KratosLover",
+    "date": "2026-01-15",
+    "rating": 5,
+    "comment": "La historia entre padre e hijo me hizo llorar. Gráficamente es una locura en PS5.",
+    "avatar": "img/avatars/user4.png"
+  },
+  {
+    "id": 107,
+    "game_id": 3,
+    "author": "ThorFan",
+    "date": "2026-01-20",
+    "rating": 5,
+    "comment": "El combate se siente pesado y contundente, justo como debe ser God of War.",
+    "avatar": "img/avatars/user2.png"
+  },
+  {
+    "id": 108,
+    "game_id": 4,
+    "author": "CowboyBebop",
+    "date": "2025-11-30",
+    "rating": 5,
+    "comment": "Lloré como un bebé al final. Arthur Morgan es el mejor protagonista de Rockstar.",
+    "avatar": "img/avatars/user3.png"
+  },
+  {
+    "id": 109,
+    "game_id": 4,
+    "author": "SpeedRunner",
+    "date": "2025-12-05",
+    "rating": 4,
+    "comment": "Es un poco lento al principio, pero una vez que te atrapa no te suelta.",
+    "avatar": "img/avatars/user5.png"
+  },
+  {
+    "id": 110,
+    "game_id": 5,
+    "author": "IndieLover",
+    "date": "2026-03-01",
+    "rating": 5,
+    "comment": "No puedo creer que este juego lo hicieron solo unas pocas personas. Arte puro.",
+    "avatar": "img/avatars/user6.png"
+  },
+  {
+    "id": 111,
+    "game_id": 5,
+    "author": "MetroidFan",
+    "date": "2026-03-02",
+    "rating": 5,
+    "comment": "El mejor metroidvania desde Symphony of the Night. La música es sublime.",
+    "avatar": "img/avatars/user1.png"
+  },
+  {
+    "id": 112,
+    "game_id": 6,
+    "author": "NintendoBoy",
+    "date": "2025-10-12",
+    "rating": 5,
+    "comment": "Diversión pura y dura. Capturar enemigos con el sombrero es una mecánica genial.",
+    "avatar": "img/avatars/user2.png"
+  },
+  {
+    "id": 113,
+    "game_id": 7,
+    "author": "GeraltFan",
+    "date": "2025-09-20",
+    "rating": 5,
+    "comment": "Aún en 2026 se sigue viendo mejor que muchos juegos nuevos. Las secundarias son mejores que la trama principal de otros juegos.",
+    "avatar": "img/avatars/user5.png"
+  },
+  {
+    "id": 114,
+    "game_id": 8,
+    "author": "CyberPunk2099",
+    "date": "2026-01-11",
+    "rating": 4,
+    "comment": "Después de todos los parches, ahora sí es el juego que prometieron. Night City está viva.",
+    "avatar": "img/avatars/user3.png"
+  },
+  {
+    "id": 115,
+    "game_id": 8,
+    "author": "TechReviewer",
+    "date": "2026-01-12",
+    "rating": 5,
+    "comment": "Visualmente es el referente en PC. El Ray Tracing cambia el juego por completo.",
+    "avatar": "img/avatars/user6.png"
+  },
+  {
+    "id": 116,
+    "game_id": 9,
+    "author": "ResidentEvilVeteran",
+    "date": "2026-02-14",
+    "rating": 5,
+    "comment": "Así es como se hace un remake. Respetaron el original pero mejoraron todo el control.",
+    "avatar": "img/avatars/user4.png"
+  },
+  {
+    "id": 117,
+    "game_id": 9,
+    "author": "ScaredPlayer",
+    "date": "2026-02-15",
+    "rating": 4,
+    "comment": "Los regeneradores me dieron pesadillas otra vez. Excelente juego.",
+    "avatar": "img/avatars/user1.png"
+  },
+  {
+    "id": 118,
+    "game_id": 10,
+    "author": "FinalFantasyLover",
+    "date": "2026-03-10",
+    "rating": 5,
+    "comment": "El sistema de combate evolucionó perfecto. Y el Gold Saucer es increíblemente divertido.",
+    "avatar": "img/avatars/user2.png"
+  },
+  {
+    "id": 119,
+    "game_id": 10,
+    "author": "CloudStrife",
+    "date": "2026-03-12",
+    "rating": 4,
+    "comment": "Algunos minijuegos sobran, pero la historia y los personajes valen cada hora.",
+    "avatar": "img/avatars/user5.png"
+  },
+  {
+    "id": 120,
+    "game_id": 10,
+    "author": "OldSchoolGamer",
+    "date": "2026-03-15",
+    "rating": 3,
+    "comment": "Prefiero el sistema por turnos original, pero entiendo por qué lo modernizaron.",
+    "avatar": "img/avatars/user6.png"
+  }
+]
