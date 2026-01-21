@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px 50px;
+  background-color: rgba(1, 17, 31, 0.95);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+}
+
+.botones {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  color: aliceblue;
+  padding: 12px 16px;
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid #66fcf1;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #66fcf1;
+  color: #0b0c10;
+  box-shadow: 0 0 15px rgba(102, 252, 241, 0.6);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+.btn-alt {
+  background-color: #66fcf1;
+  color: #0b0c10;
+  padding: 8px 12px;
+  border-radius: 24px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  border: 2px solid #66fcf1;
+  transition: all 0.3s ease;
+}
+
+.btn-alt:hover {
+  background-color: transparent;
+  color: aliceblue;
+  box-shadow: 0 0 15px rgba(102, 252, 241, 0.6);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+.cart-contenido {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  flex: 1;
+}
+
+.page-title {
+  margin-bottom: 30px;
+  font-size: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 20px;
+}
+
+.cart-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.cart-wrapper.empty {
+  display: block;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  background-color: #1a1a2e;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  align-items: center;
+  gap: 20px;
+  transition: transform 0.2s;
+}
+
+.cart-item:hover {
+  border-color: #66fcf1;
+}
+
+.item-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item-info {
+  flex-grow: 1;
+}
+
+.item-info h3 {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.item-info p {
+  color: #a0a0a0;
+  font-size: 14px;
+}
+
+.item-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #66fcf1;
+  margin-right: 20px;
+}
+
+.btn-remove {
+  background: transparent;
+  border: none;
+  color: #ff4757;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.btn-remove:hover {
+  color: #ff6b81;
+  transform: scale(1.1);
+}
+
+.cart-resumen {
+  background-color: #1a1a2e;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: sticky;
+  top: 110px;
+}
+
+.cart-resumen h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.resumen-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: #c5c6c7;
+}
+
+.divider {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 20px 0;
+}
+
+.resumen-row.total {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+}
+
+.resumen-row.total span:last-child {
+  color: #66fcf1;
+}
+
+.btn-checkout {
+  width: 100%;
+  padding: 15px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s;
+}
+
+.btn-checkout:hover {
+  background-color: #4338ca;
+}
+
+.btn-clear {
+  width: 100%;
+  margin-top: 10px;
+  background: transparent;
+  color: #ff4757;
+  border: 1px solid #ff4757;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-clear:hover {
+  background: #ff4757;
+  color: white;
+}
+
+.empty-msg {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.empty-msg i {
+  font-size: 80px;
+  color: #2c2c54;
+}
+
+@media (max-width: 768px) {
+  .cart-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-resumen {
+    position: static;
+  }
+}
+
+.site-footer {
+  background-color: #050608;
+  color: #a0a0a0;
+  padding: 60px 20px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-col h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.footer-col h4 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-col p {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #a0a0a0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #66fcf1;
+  padding-left: 5px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.social-links a svg {
+  width: 20px;
+  height: 20px;
+}
+
+.social-links a:hover {
+  background-color: #4f46e5;
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 14px;
+  color: #6c757d;
+}
